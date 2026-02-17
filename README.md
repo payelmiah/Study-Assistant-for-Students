@@ -12,7 +12,7 @@ The **AI Student Assistant** is a FastAPI-based application that leverages Huggi
 ## Technologies Used
 
 - **FastAPI**: Web framework for building APIs with Python.
-- **Hugging Face API**: Used for natural language processing (NLP) tasks like summarization, question generation, etc.
+- **OpenAI or Hugging Face API**: Used for natural language processing (NLP) tasks like summarization, question generation, etc.
 - **Uvicorn**: ASGI server to run the FastAPI app.
 - **Python 3.x**: Programming language used for the backend.
 
