@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+requests
+spacy
+pdfplumber
+pydantic
+python-dotenv
+pytest
+transformers
