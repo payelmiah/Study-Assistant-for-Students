@@ -10,8 +10,9 @@ class Document(BaseModel):
 
 
 @router.post("/generate_summary/")
-async def generate_summary(doc: dict):
-    return {"summary": "This is a mock summary."}
+async def generate_summary_endpoint(doc: Document):
+    summary = generate_summary(doc.content)
+    return {"summary": summary}
 
 @router.post("/generate_mcqs/")
 async def generate_mcqs_endpoint(doc: Document):
